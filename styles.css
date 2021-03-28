@@ -12,7 +12,15 @@ height: 100px;
 float: left;
 font-size: 75px;
 }
-
+.btn{
+    display: block;
+    
+}
+#result{
+    color: rgb(91, 29, 150);
+    height: 2em;
+    margin-top: 0.5em;
+}
 .squares:hover{
     cursor: grab;
     background-color: rgba(137, 43, 226, 0.08);
@@ -43,5 +51,14 @@ font-size: 75px;
 }
 
 main{
+    margin-top: 2em;
     height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clear{
+    margin-top: 3em;
+    padding: 0.5em 1em;
 }
